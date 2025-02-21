@@ -1,12 +1,15 @@
 ---
 title: Untitled
 format:
-  minimal-beamer: default
+  minimal-revealjs: default
 author: filippogambarota
+email: filippo.gambarota@unipd.it
+web: filippogambarota.github.io
 date: last-modified
 bibliography: "`r filor::fil()$bib`"
 csl: "`r filor::fil()$csl`"
 final-slide: true
+final-slide-logo: img/psicostat-logo.pdf
 ---
 
 ```{r}
@@ -47,3 +50,25 @@ options(ggplot2.continuous.fill = "viridis")
 scale_colour_discrete <- scale_colour_viridis_d
 scale_fill_discrete <- scale_fill_viridis_d
 ```
+
+# Section
+
+## Subsection
+
+This is an amazing slide!
+
+- bullet 1
+- bullet 2
+- bullet n
+
+## Subsection
+
+Another amazing slide
+
+1. bullet 1
+2. bullet 2
+3. bullet 3
+
+## Subsection
+
+The link [www.google.com](www.google.com)
