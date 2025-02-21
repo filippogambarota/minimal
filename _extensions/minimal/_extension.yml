@@ -10,7 +10,8 @@ contributes:
         - title-slide.html
       code-line-numbers: false
     beamer:
-      include-in-header: header.tex
+      include-in-header:
+        - header.tex
       template-partials:
         - after-body.tex
       linkcolor: black
@@ -20,3 +21,4 @@ contributes:
       toccolor: black
       link-citations: true
       toc-title: Contents
+      slide-number: false
