@@ -1,13 +1,14 @@
 ---
 title: Untitled
 format:
-  minimal-beamer: default
+  minimal-revealjs: default
+#  minimal-beamer: default
 author: filippogambarota
 email: filippo.gambarota@unipd.it
 web: filippogambarota.github.io
 date: last-modified
-bibliography: "`r filor::fil()$bib`"
-csl: "`r filor::fil()$csl`"
+bibliography: "files/references.bib"
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl"
 final-slide: true
 final-slide-logo: img/psicostat-logo.pdf
 toc: true
@@ -74,3 +75,20 @@ Another amazing slide
 ## Subsection
 
 The link [www.google.com](www.google.com)
+
+## Code
+
+```{r}
+#| eval: false
+library(tidyverse)
+
+iris |> 
+  group_by(Species) |> 
+  summarise(m = mean(Sepal.Length))
+```
+
+## References
+
+You can include also some references @Ho2019-kp or [-@Sanchez-Meca2003-tz] or [@Patil2019-ms]
+
+## References {.refs}
