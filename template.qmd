@@ -1,18 +1,25 @@
 ---
-title: Untitled
+title: Presentation Title
 format:
-  minimal-revealjs: default
-#  minimal-beamer: default
-author: filippogambarota
+  #minimal-revealjs: default
+  minimal-beamer: default
+author: Filippo Gambarota
 email: filippo.gambarota@unipd.it
 web: filippogambarota.github.io
 date: last-modified
+institute: University of Padova
+date-format: "[\\@EVENT] YYYY"
 bibliography: "files/references.bib"
+# standard apa7
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl"
+# apa7 with inline full references
+# csl: files/apa7-inline.csl
 final-slide: true
-final-slide-logo: img/psicostat-logo.pdf
+#final-slide-logo: img/psicostat-logo.pdf
 toc: true
 slide-number: true
+qr-code: filippogambarota.github.io
+slides-update: "`r Sys.Date()`"
 ---
 
 ```{r}
@@ -87,8 +94,8 @@ iris |>
   summarise(m = mean(Sepal.Length))
 ```
 
-## References
+## Include references
 
-You can include also some references @Ho2019-kp or [-@Sanchez-Meca2003-tz] or [@Patil2019-ms]
+You can include also some references @Ho2019-kp or [-@Sanchez-Meca2003-tz] or [@Patil2019-ms] @Anikin2025-sw @Miller2024-qi @Sheng2016-ei.
 
-## References {.refs}
+## References {.refs .allowframebreaks}
